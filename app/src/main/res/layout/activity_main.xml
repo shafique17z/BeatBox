@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--To use data binding in a layout file, you have to make the file a data binding layout file.
+You do that by wrapping the entire XML file in a <layout> tag.-->
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The activity will display a grid of buttons in a RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</layout>
